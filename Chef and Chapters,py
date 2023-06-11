@@ -1,0 +1,4 @@
+for i in range (int(input())):
+    x,y,z=map(int,input().split())
+    tot_chap=(x*z)*y
+    print(tot_chap)
